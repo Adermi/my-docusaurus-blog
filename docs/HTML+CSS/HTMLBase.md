@@ -29,13 +29,13 @@ title: HTML基础
 
 6. 主流浏览器：拥有自己的内核，比如谷歌，火狐，欧朋，IE等
 
-   ![1570632289149](assets/1570632289149.png)
+   ![1570632289149](/assets/htmlcssAssets.assets/1570632289149.png)
 
    - 国内浏览器的内核都是用的 `Webkit/Blink` 内核，如 360，UC，QQ，搜狗等
 
 ### 2.Web标准
 
-![1570632757082](assets/1570632757082.png)
+![1570632757082](/assets/htmlcssAssets.assets/1570632757082.png)
 
 Web标准的构成：
 
@@ -43,7 +43,7 @@ Web标准的构成：
 2. 表现 css
 3. 行为 js
 
-![1570633986705](assets/1570633986705.png)
+![1570633986705](/assets/htmlcssAssets.assets/1570633986705.png)
 
 ### 3.VsCode的使用
 
@@ -66,7 +66,7 @@ Web标准的构成：
 
 2. 右键在网页中打开
 
-   ![1570635231398](assets/1570635231398.png)
+   ![1570635231398](/assets/htmlcssAssets.assets/1570635231398.png)
 
 ## 二，HTML标签(上)
 
@@ -166,11 +166,11 @@ Web标准的构成：
    
    12. `<sub></sub>` 下标   eg：H<sub>2</sub>+O<sub>2</sub>=H<sub>2</sub>0；
    
-   13. ![1570636252686](assets/1570636252686.png)
+   13. ![1570636252686](/assets/htmlcssAssets.assets/1570636252686.png)
 
 ### 2.Img标签
 
-![1570636814346](assets/1570636814346.png)
+![1570636814346](/assets/htmlcssAssets.assets/1570636814346.png)
 
 - `src`：绝对路径，相对路径，**url**路径；
 
@@ -218,13 +218,13 @@ Web标准的构成：
   object-fit: cover;	/* 不缩放图片 */
   ```
 
-  ![image-20211019123328641](./assets/image-20211019123328641.png)
+  ![image-20211019123328641](/assets/htmlcssAssets.assets/image-20211019123328641.png)
 
 注：在网页中 图片显示的时候包括基线产生的一小段空白
 
 ### 3.特殊字符
 
-![1570639417836](assets/1570639417836.png)
+![1570639417836](/assets/htmlcssAssets.assets/1570639417836.png)
 
 
 
@@ -264,7 +264,7 @@ Web标准的构成：
 
 - 表格属性：所有的属性必须写在**table**标签内
 
-  ![1570705879701](assets/1570705879701.png)
+  ![1570705879701](/assets/htmlcssAssets.assets/1570705879701.png)
 
 ```html
 <table align="center" border="1" cellpadding="6px" cellspacing="0" width="200px" height="200px">
@@ -286,7 +286,7 @@ Web标准的构成：
 </table>
 ```
 
-![1570706423070](assets/1570706423070.png)
+![1570706423070](/assets/htmlcssAssets.assets/1570706423070.png)
 
 ##### 案例1：显示表格数据
 
@@ -319,7 +319,7 @@ Web标准的构成：
 </table>
 ```
 
-![1570707541915](assets/1570707541915.png)
+![1570707541915](/assets/htmlcssAssets.assets/1570707541915.png)
 
 #### 表格结构标签
 
@@ -364,7 +364,7 @@ Web标准的构成：
 
    - 跨列合并：`colspan = "合并单元格的个数"`
 
-     ![1570708755429](assets/1570708755429.png)
+     ![1570708755429](/assets/htmlcssAssets.assets/1570708755429.png)
 
 2. 合并第二步
 
@@ -372,7 +372,7 @@ Web标准的构成：
 
    - 跨列：把属性卸载最左侧的单元格
 
-     ![1570708908005](assets/1570708908005.png)
+     ![1570708908005](/assets/htmlcssAssets.assets/1570708908005.png)
 
 3. 删除多余的单元格
 
@@ -394,7 +394,7 @@ Web标准的构成：
 </table>
 ```
 
-![1570709765332](assets/1570709765332.png)
+![1570709765332](/assets/htmlcssAssets.assets/1570709765332.png)
 
 表格常用CSS属性
 
@@ -447,7 +447,7 @@ Web标准的构成：
 
 3. 使用场景
 
-   ![1570711112822](assets/1570711112822.png)
+   ![1570711112822](/assets/htmlcssAssets.assets/1570711112822.png)
 
 #### 有序列表(理解)
 
@@ -481,7 +481,7 @@ Web标准的构成：
 
 使用场景：
 
-![1570711066938](assets/1570711066938.png)
+![1570711066938](/assets/htmlcssAssets.assets/1570711066938.png)
 
 ### 3.表单
 
@@ -491,7 +491,7 @@ Web标准的构成：
 
 一个完整的表单主要由于 **表单域**  **表单控件**  **提示信息  **组成
 
-![1570711382401](assets/1570711382401.png)
+![1570711382401](/assets/htmlcssAssets.assets/1570711382401.png)
 
 `表单域` ：包含表单元素的区域(form标签内)
 
@@ -503,7 +503,7 @@ Web标准的构成：
 </form>
 ```
 
-![1570711804581](assets/1570711804581.png)
+![1570711804581](/assets/htmlcssAssets.assets/1570711804581.png)
 
 #### 表单控件
 
@@ -511,7 +511,7 @@ Web标准的构成：
 
    > **type ** 属性这只不同的属性值用来指定不同的控件类型
 
-   ![1570718242556](assets/1570718242556.png)
+   ![1570718242556](/assets/htmlcssAssets.assets/1570718242556.png)
 
    ```html
    <form action="xxx.py", method="GET" name="表单域名称">
@@ -533,11 +533,11 @@ Web标准的构成：
    </form>
    ```
 
-   ![1570719561963](assets/1570719561963.png)
+   ![1570719561963](/assets/htmlcssAssets.assets/1570719561963.png)
 
    - 除了**type**属性，还有别的属性：
 
-   ![1570718334147](assets/1570718334147.png)
+   ![1570718334147](/assets/htmlcssAssets.assets/1570718334147.png)
 
    `name/value` 属性 : 数据是以键值对的形式传入后台	 **name(表单元素name) = values(用户输入的值)**
 
@@ -552,7 +552,7 @@ Web标准的构成：
    <label for="man">男</label><input type="radio" id="man">
    ```
 
-   ![22](assets/22.gif)
+   ![22](/assets/htmlcssAssets.assets/22.gif)
 
 ##### -表单题目
 
@@ -580,7 +580,7 @@ Web标准的构成：
 
    > 当选项中有多个选项要用户来选择时，又想要节省空间，选择下拉菜单
 
-   ![1570722033290](assets/1570722033290.png)
+   ![1570722033290](/assets/htmlcssAssets.assets/1570722033290.png)
 
    - `<selec>` 中至少包含一对 `<option>`
    - 在`<option>` 中写上 `selected="selected"` 这个属性会默认选中状态
@@ -589,7 +589,7 @@ Web标准的构成：
 
    > 当用户输入的内容过多时，我们就不能使用文本框了，因此可以使用 `<textarea>` 这个表单元素
 
-   ![1570722492400](assets/1570722492400.png)
+   ![1570722492400](/assets/htmlcssAssets.assets/1570722492400.png)
 
 ##### -案例2：注册页面
 
@@ -616,7 +616,7 @@ Web标准的构成：
 </form>
 ```
 
-![1570769362225](assets/1570769362225.png)
+![1570769362225](/assets/htmlcssAssets.assets/1570769362225.png)
 
 - 写法二
 

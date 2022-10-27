@@ -36,7 +36,7 @@ id: h5c3
 
   > 注意，在IE9里面中，我们需要把所有的这些标签转换成块级元素
 
-  ![1571312499699](assets/1571312499699.png)
+  ![1571312499699](/assets/htmlcssAssets.assets/1571312499699.png)
 
   ##### [示例](#)
 
@@ -100,7 +100,7 @@ id: h5c3
 
   `<audio>` 
 
-  ![1571316023109](assets/1571316023109.png)
+  ![1571316023109](/assets/htmlcssAssets.assets/1571316023109.png)
 
   * preload        预加载
   * muted          静音
@@ -119,7 +119,7 @@ id: h5c3
 
     `<video>` : 
 
-  ![1571315932542](assets/1571315932542.png)
+  ![1571315932542](/assets/htmlcssAssets.assets/1571315932542.png)
 
   ```html
   <video autoplay="autoplay" src="太空.mp4">
@@ -160,11 +160,11 @@ id: h5c3
 
 新增的 input 表单可以快速的帮助验证表单内容，禁止一些内容的输入
 
-![1571317897755](assets/1571317897755.png)
+![1571317897755](/assets/htmlcssAssets.assets/1571317897755.png)
 
 ### 4.表单属性
 
-- [x] ![1571363076351](assets/1571363076351.png)
+- [x] ![1571363076351](/assets/htmlcssAssets.assets/1571363076351.png)
 
   ##### [示例](#)
 
@@ -182,7 +182,7 @@ id: h5c3
 
 > 类选择器，属性选择器，伪类选择器，权重都为10
 
-- [x] ![1571364436795](assets/1571364436795.png)
+- [x] ![1571364436795](/assets/htmlcssAssets.assets/1571364436795.png)
 
   ##### [示例](#)
 
@@ -226,7 +226,7 @@ id: h5c3
   </body>
   ```
 
-  ![1571364498733](assets/1571364498733.png)
+  ![1571364498733](/assets/htmlcssAssets.assets/1571364498733.png)
 
 ### 2.伪类选择器
 
@@ -305,7 +305,7 @@ id: h5c3
 
 > 类选择器，属性选择器，伪类选择器，权重都为10
 
-- [x] ![1571364642695](assets/1571364642695.png)
+- [x] ![1571364642695](/assets/htmlcssAssets.assets/1571364642695.png)
 
 - [x] `nth-child(n)` 功能强大的伪类选择器
 
@@ -390,7 +390,7 @@ id: h5c3
 
 ### 4.伪元素选择器
 
-- [x] ![1571367571919](assets/1571367571919.png)
+- [x] ![1571367571919](/assets/htmlcssAssets.assets/1571367571919.png)
 
   ##### [说明](#) 
 
@@ -424,7 +424,7 @@ id: h5c3
   <div>我是div</div>
   ```
 
-  ![1571367948514](assets/1571367948514.png)
+  ![1571367948514](/assets/htmlcssAssets.assets/1571367948514.png)
 
 -案例1：伪元素字体图标
 
@@ -478,7 +478,7 @@ id: h5c3
 </html>
 ```
 
-![1571377617724](assets/1571377617724.png)
+![1571377617724](/assets/htmlcssAssets.assets/1571377617724.png)
 
 ## 四，CSS3变形转换
 
@@ -486,7 +486,7 @@ id: h5c3
 
 `转换变形（transform）`是CSS**3中具有颠覆性**的特征之一，可以实现元素的位移，旋转，缩放等
 
-![1571378088889](assets/1571378088889.png)
+![1571378088889](/assets/htmlcssAssets.assets/1571378088889.png)
 
 1. #### `2D 转换值 translate`
 
@@ -507,7 +507,7 @@ id: h5c3
    1. translate 最大的优点就是移动盒子不会影响到其他的盒子，像相对定位一样
    2. `对行内标签没有效果`
 
-   ![6](assets/6.gif)
+   ![6](/assets/htmlcssAssets.assets/6.gif)
 
    ##### [示例](#)
 
@@ -563,7 +563,7 @@ p {
 }
 ```
 
-![1571380414151](assets/1571380414151.png)
+![1571380414151](/assets/htmlcssAssets.assets/1571380414151.png)
 
 ### 2.CSS3 2D转换-旋转
 
@@ -587,7 +587,7 @@ p {
 
   - 默认旋转的点为元素的中心点
 
-    ![7](assets/7.gif)
+    ![7](/assets/htmlcssAssets.assets/7.gif)
 
     ##### [示例](#)
 
@@ -655,7 +655,7 @@ p {
 </body>
 ```
 
-![8](assets/8.gif)
+![8](/assets/htmlcssAssets.assets/8.gif)
 
 -案例4：隐藏旋转案例
 
@@ -697,7 +697,7 @@ p {
 </body>
 ```
 
-![12](assets/12.gif)
+![12](/assets/htmlcssAssets.assets/12.gif)
 
 ### 3.CSS3 2D转换-缩放
 
@@ -723,7 +723,7 @@ p {
 -案例5：实现京东放大镜效果
 
 ```html
-![13](assets/13.gif)<style>
+![13](/assets/htmlcssAssets.assets/13.gif)<style>
     * {
         margin: 0;
         padding: 0;
@@ -763,7 +763,7 @@ p {
 </body>
 ```
 
-![13](assets/13.gif)
+![13](/assets/htmlcssAssets.assets/13.gif)
 
 -案例6：分页按钮放大
 
@@ -809,7 +809,7 @@ p {
 </body>
 ```
 
-![14](assets/14.gif)
+![14](/assets/htmlcssAssets.assets/14.gif)
 
 ### 4.三者书写顺序
 
@@ -903,7 +903,7 @@ div {
 }
 ```
 
-![16](assets/16.gif)
+![16](/assets/htmlcssAssets.assets/16.gif)
 
 ### 2.动画属性
 
@@ -940,7 +940,7 @@ div:hover {
 }
 ```
 
-![1571466611655](assets/1571466611655.png)
+![1571466611655](/assets/htmlcssAssets.assets/1571466611655.png)
 
 ### 3.动画属性复合写法
 
@@ -1056,7 +1056,7 @@ animation: move 1s linear 2s infinite alternate forwards
 </div>
 ```
 
-![17](assets/17.gif)
+![17](/assets/htmlcssAssets.assets/17.gif)
 
 ### 4.速度曲线属性
 
@@ -1098,7 +1098,7 @@ animation: move 1s linear 2s infinite alternate forwards
    <div>We are here wating for you</div>
    ```
 
-   ![18](assets/18.gif)
+   ![18](/assets/htmlcssAssets.assets/18.gif)
 
 -案例9：奔跑的小熊
 
@@ -1138,7 +1138,7 @@ animation: move 1s linear 2s infinite alternate forwards
 <div></div>
 ```
 
-![19](assets/19.gif)
+![19](/assets/htmlcssAssets.assets/19.gif)
 
  
 
@@ -1170,7 +1170,7 @@ animation: move 1s linear 2s infinite alternate forwards
 2. **透视就是视距**，我们眼睛离电脑屏幕越近，视距越小，看到的物体越大
 3. `透视(perspective)是写在被观察元素的父盒子上面的，如果想看到3D，必须写透视`
 
-4. ![1571487257526](assets/1571487257526.png)![1571487192528](assets/1571487192528.png)
+4. ![1571487257526](/assets/htmlcssAssets.assets/1571487257526.png)![1571487192528](/assets/htmlcssAssets.assets/1571487192528.png)
 
 5. ##### [示例](#)
 
@@ -1194,7 +1194,7 @@ animation: move 1s linear 2s infinite alternate forwards
    <div></div>
    ```
 
-   ![1571477200211](assets/1571477200211.png)
+   ![1571477200211](/assets/htmlcssAssets.assets/1571477200211.png)
 
 ### 4.Z轴和透视区别
 
@@ -1204,7 +1204,7 @@ animation: move 1s linear 2s infinite alternate forwards
 
 2. 透视变化，指的是我们的眼睛距离屏幕越来越近，元素也就变大了
 
-   ![1571488387342](assets/1571488387342.png)
+   ![1571488387342](/assets/htmlcssAssets.assets/1571488387342.png)
 
 ### 5.透视和3D呈现区别
 
@@ -1223,7 +1223,7 @@ animation: move 1s linear 2s infinite alternate forwards
 
   3. **transform: rotateZ (45deg)**		：沿着z轴正方向旋转 45 度
 
-     ![20](assets/20.gif)
+     ![20](/assets/htmlcssAssets.assets/20.gif)
 
   ```css
   img:active {
@@ -1255,7 +1255,7 @@ animation: move 1s linear 2s infinite alternate forwards
 
   5. 这个属性非常重要
 
-     ![1571537437035](assets/1571537437035.png)
+     ![1571537437035](/assets/htmlcssAssets.assets/1571537437035.png)
 
 -案例10：翻转的盒子
 
@@ -1307,7 +1307,7 @@ animation: move 1s linear 2s infinite alternate forwards
 </div>
 ```
 
-![21](assets/21.gif)
+![21](/assets/htmlcssAssets.assets/21.gif)
 
 -案例11：3D导航栏
 
@@ -1390,7 +1390,7 @@ animation: move 1s linear 2s infinite alternate forwards
 </ul>
 ```
 
-![25](assets/25.gif)
+![25](/assets/htmlcssAssets.assets/25.gif)
 
 -案例12：旋转木马
 
@@ -1473,7 +1473,7 @@ animation: move 1s linear 2s infinite alternate forwards
 </section>
 ```
 
-![26](assets/26.gif)
+![26](/assets/htmlcssAssets.assets/26.gif)
 
 ## 八，浏览器私有属性
 
@@ -1583,7 +1583,7 @@ animation: move 1s linear infinite forwards;
 </div>
 ```
 
-![1571552834213](assets/1571552834213.png)
+![1571552834213](/assets/htmlcssAssets.assets/1571552834213.png)
 
 #### -案例14：小米logo
 
@@ -1612,7 +1612,7 @@ animation: move 1s linear infinite forwards;
         right: 0px;
         width: 55px;
         height: 55px;
-        background: url("https://s02.mifile.cn/assets/static/image/mi-logo.png") no-repeat center;
+        background: url("https://s02.mifile.cn/assets/htmlcssAssets.assets/static/image/mi-logo.png") no-repeat center;
     }
 
     div a::after {
@@ -1621,7 +1621,7 @@ animation: move 1s linear infinite forwards;
         left: 0px;
         width: 55px;
         height: 55px;
-        background: url("https://s02.mifile.cn/assets/static/image/mi-home.png") no-repeat center;
+        background: url("https://s02.mifile.cn/assets/htmlcssAssets.assets/static/image/mi-home.png") no-repeat center;
     }
 
     div a:hover {
@@ -1636,4 +1636,4 @@ animation: move 1s linear infinite forwards;
 </div>
 ```
 
-![27](assets/27.gif)
+![27](/assets/htmlcssAssets.assets/27.gif)

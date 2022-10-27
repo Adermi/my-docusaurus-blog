@@ -21,3 +21,52 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroBanner {
+  background-color: #fff;
+}
+
+[data-theme='dark'] .heroBanner {
+  background-color: #242526;
+}
+
+.cards {
+  max-width: 1108px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  column-gap: 15px;
+  justify-items: center;
+}
+
+.cardImg {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.cardText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* height: 70px; */
+}
+
+.myButton {
+  background-color: #59d4e9 !important;
+  color: #fff !important;
+}
+
+[data-theme='dark'] .myButton {
+  background-color: #59d4e9 !important;
+  color: #000 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+}

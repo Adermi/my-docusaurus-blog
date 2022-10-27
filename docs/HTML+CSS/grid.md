@@ -39,27 +39,27 @@ title: Grid布局
 
 构成网格的分割线
 
-<img src={require('./flextbox+grid.assets/image-20220515200811459.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220515200811459.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 ### 网格单元
 
 两个相邻行和两个相邻列网格线之间的空间
 
-<img src={require('./flextbox+grid.assets/image-20220515200841685.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220515200841685.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 ### 网格轨道
 
 可以将他们视为行或者列
 
-<img src={require('./flextbox+grid.assets/image-20220515200934266.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220515200934266.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 ### 网格区域
 
 由任意个网格单元组成的区域
 
-<img src={require('./flextbox+grid.assets/image-20220515201029524.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220515201029524.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 ## 父级属性
@@ -104,9 +104,9 @@ title: Grid布局
 }
 ```
 
-![image-20220516104603069](flextbox+grid.assets/image-20220516104603069.png)
+![image-20220516104603069](/assets/flextbox+grid.assets/image-20220516104603069.png)
 
-<img src={require('./flextbox+grid.assets/image-20220517095819200.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517095819200.png').default} alt="Example banner" style={{ style:"80%" }}/>
 
 
 - `px`：像素空间
@@ -148,7 +148,7 @@ title: Grid布局
   }
   ```
 
-  ![image-20220516155040388](flextbox+grid.assets/image-20220516155040388.png)
+  ![image-20220516155040388](/assets/flextbox+grid.assets/image-20220516155040388.png)
 
 - 现在就有了 9 个网格单元，把这 9 个单元划分成下面的网格区域：
 
@@ -164,7 +164,7 @@ title: Grid布局
   }
   ```
 
-  ![image-20220516154618310](flextbox+grid.assets/image-20220516154618310.png)
+  ![image-20220516154618310](/assets/flextbox+grid.assets/image-20220516154618310.png)
 
 ### grid-gap
 
@@ -197,7 +197,7 @@ title: Grid布局
 - `column`：子项**依次**放置每一列，根据需要添加新列
 - `dense`：如果前面的网格出现空余网格单元，则把后续较小的子项向前填充。[案例](https://jsbin.com/wapejok/edit?css,output)
 
-![image-20220516162614809](flextbox+grid.assets/image-20220516162614809.png)
+![image-20220516162614809](/assets/flextbox+grid.assets/image-20220516162614809.png)
 
 ### grid-auto-columns/rows
 
@@ -216,15 +216,15 @@ title: Grid布局
 
 现在我们有一个 2 x 2 的网格：
 
-![image-20220516151418134](flextbox+grid.assets/image-20220516151418134.png)![image-20220516152001162](flextbox+grid.assets/image-20220516152001162.png)
+![image-20220516151418134](/assets/flextbox+grid.assets/image-20220516151418134.png)![image-20220516152001162](/assets/flextbox+grid.assets/image-20220516152001162.png)
 
 若现在有一个子项，其位置为 `grid-row: 3 / 4`，`grid-columns: 3 / 4`
 
 这个时候网格容器就不得不开辟新的网格，并且新的网格宽度和高度都不确定会自适应：
 
-![image-20220516151530184](flextbox+grid.assets/image-20220516151530184.png)
+![image-20220516151530184](/assets/flextbox+grid.assets/image-20220516151530184.png)
 
-![image-20220516151934009](flextbox+grid.assets/image-20220516151934009.png)
+![image-20220516151934009](/assets/flextbox+grid.assets/image-20220516151934009.png)
 
 - `item3`是因为`grid`网格默认一行一行填满网格，因为`item10` 位于网格外，`2 x 2` 的网格不得不重新开辟成 `3 x 3`的网格，会多出一行一列。
 - `item10`的宽度跟随新开辟的列的宽度，高度自适应。
@@ -238,7 +238,7 @@ title: Grid布局
 }
 ```
 
-![image-20220516152932031](flextbox+grid.assets/image-20220516152932031.png)![image-20220516153106334](flextbox+grid.assets/image-20220516153106334.png)
+![image-20220516152932031](/assets/flextbox+grid.assets/image-20220516152932031.png)![image-20220516153106334](/assets/flextbox+grid.assets/image-20220516153106334.png)
 
 ### justify-items
 
@@ -255,7 +255,7 @@ title: Grid布局
 - `center`：元素位于网格单元中心
 - `end`：元素位于网格单元结束处
 
-![image-20220516195511147](flextbox+grid.assets/image-20220516195511147.png)
+![image-20220516195511147](/assets/flextbox+grid.assets/image-20220516195511147.png)
 
 ### align-items
 
@@ -273,7 +273,7 @@ title: Grid布局
 - **`center`** - 与网格单元的中心位置对其
 - **`baseline`**[-沿文本基线](https://codepen.io/chriscoyier/pen/NWvvPRj)对齐
 
-![image-20220516200556880](flextbox+grid.assets/image-20220516200556880.png)
+![image-20220516200556880](/assets/flextbox+grid.assets/image-20220516200556880.png)
 
 ### place-items（简写）
 
@@ -305,7 +305,7 @@ title: Grid布局
 - `space-between` - 每两列子项之间有空格
 - `space-evenly` - 每列网格的左右空格相等
 
-![image-20220516211528950](flextbox+grid.assets/image-20220516211528950.png)
+![image-20220516211528950](/assets/flextbox+grid.assets/image-20220516211528950.png)
 
 ### align-content
 
@@ -320,7 +320,7 @@ title: Grid布局
 
 - `stretch` - 网格子项没有指定大小时，拉伸高度填充整个网格容器。
 
-![image-20220516213010125](flextbox+grid.assets/image-20220516213010125.png)
+![image-20220516213010125](/assets/flextbox+grid.assets/image-20220516213010125.png)
 
 ### place-content（简写）
 
@@ -333,7 +333,7 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220516213658363.png').default} alt="Example banner" style={{ style:"50%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220516213658363.png').default} alt="Example banner" style={{ style:"50%" }}/>
 
 
 
@@ -382,7 +382,7 @@ title: Grid布局
 }
 ```
 
-![image-20220517100114132](flextbox+grid.assets/image-20220517100114132.png)
+![image-20220517100114132](/assets/flextbox+grid.assets/image-20220517100114132.png)
 
 ```css
 .item {
@@ -396,7 +396,7 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220517100521425.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517100521425.png').default} alt="Example banner" style={{ style:"80%" }}/>
 
 
 ### grid-row-start/end（简写）
@@ -417,7 +417,7 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220517103112850.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517103112850.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 ```css
@@ -460,8 +460,8 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220517113045721.png').default} alt="Example banner" style={{ style:"80%" }}/>
-<img src={require('./flextbox+grid.assets/image-20220517113050695.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517113045721.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517113050695.png').default} alt="Example banner" style={{ style:"80%" }}/>
 
 
 ### grid-area
@@ -493,7 +493,7 @@ title: Grid布局
 }
 ```
 
-![image-20220517115445234](flextbox+grid.assets/image-20220517115445234.png)
+![image-20220517115445234](/assets/flextbox+grid.assets/image-20220517115445234.png)
 
 ```css
 .container {
@@ -509,7 +509,7 @@ title: Grid布局
 }
 ```
 
-![image-20220517115752933](flextbox+grid.assets/image-20220517115752933.png)
+![image-20220517115752933](/assets/flextbox+grid.assets/image-20220517115752933.png)
 
 ### justify-self
 
@@ -523,7 +523,7 @@ title: Grid布局
 
 - `stretch` - 默认值，没有默认宽度时拉伸填满整个单元格
 
-<img src={require('./flextbox+grid.assets/image-20220517120853174.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517120853174.png').default} alt="Example banner" style={{ style:"80%" }}/>
 
 
 ### align-self
@@ -538,7 +538,7 @@ title: Grid布局
 
 - `stretch` - 默认值，没有默认高度时拉伸填满整个单元格
 
-<img src={require('./flextbox+grid.assets/image-20220517120700188.png').default} alt="Example banner" style={{ style:"80%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517120700188.png').default} alt="Example banner" style={{ style:"80%" }}/>
 
 
 ### place-self（简写）
@@ -612,7 +612,7 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220517143740824.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517143740824.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 #### auto-fit
@@ -632,7 +632,7 @@ title: Grid布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220517143840374.png').default} alt="Example banner" style={{ style:"67%" }}/>
+<img src={require('/assets/flextbox+grid.assets/image-20220517143840374.png').default} alt="Example banner" style={{ style:"67%" }}/>
 
 
 #### 非媒体查询实现响应网格
@@ -643,4 +643,4 @@ title: Grid布局
 grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
 ```
 
-![](flextbox+grid.assets/10.gif)
+![](/assets/flextbox+grid.assets/10.gif)

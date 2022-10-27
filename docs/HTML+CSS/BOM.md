@@ -9,7 +9,7 @@ title: BOM对象
 
 - BOM 比 DOM大，是JS访问浏览器的一个接口，是一个全局对象，全局作用域下的变量，函数都编程了他的方法和属性
 
-  ![1572914106663](assets/1572914106663.png)
+  ![1572914106663](/assets/htmlcssAssets.assets/1572914106663.png)
 
   ```js
   var a = 10;
@@ -343,7 +343,7 @@ window.setInterval(function() {
 </body>
 ```
 
-![1572914106663](assets/27.gif)
+![1572914106663](/assets/htmlcssAssets.assets/27.gif)
 
 #### 案例3：发送验证码等待
 
@@ -368,7 +368,7 @@ btn.addEventListener('click', function() {
     })
 ```
 
-![](assets/28.gif)
+![](/assets/htmlcssAssets.assets/28.gif)
 
 ### 6，this指向问题
 
@@ -438,7 +438,7 @@ btn.addEventListener('click', function() {
 
   异步任务相关回调韩式是放在任务队列中（也称消息队列中，使用多线程执行）
 
-  ![1572947297713](assets/1572947297713.png)
+  ![1572947297713](/assets/htmlcssAssets.assets/1572947297713.png)
 
 - ##### [执行顺序](#)
 
@@ -448,15 +448,15 @@ btn.addEventListener('click', function() {
 
   3. 一旦执行线中的**同步任务执行完毕**，系统就会**依次顺序读取任务队列中的异步任务**，于是被读取的异步任务**结束等待状态**，进入执行线**开始执行任务**
 
-     ![1572947178675](assets/1572947178675.png)
+     ![1572947178675](/assets/htmlcssAssets.assets/1572947178675.png)
   
-     ![1573097278795](assets/1573097278795.png)
+     ![1573097278795](/assets/htmlcssAssets.assets/1573097278795.png)
   
   
 
 ### 8，location对象
 
-![1572965223494](assets/1572965223494.png)
+![1572965223494](/assets/htmlcssAssets.assets/1572965223494.png)
 
 > `window.location` 对象可以获取 [bom](#) 的 [url](#) 的对象的属性，可以写成 `lication`
 
@@ -466,7 +466,7 @@ location.href = 'https//www.baidu.com'	// 浏览器跳转到百度
 console.log(location.search); // 获取url路径参数
 ```
 
-![1572965813048](assets/1572965813048.png)
+![1572965813048](/assets/htmlcssAssets.assets/1572965813048.png)
 
 - ##### [重点](#)：记住 href 和 search
 
@@ -492,7 +492,7 @@ console.log(location.search); // 获取url路径参数
 
 > history对象能够让我们和浏览器的历史记录交互，进行页面的前进和后退
 
-![1573002830160](assets/1573002830160.png)
+![1573002830160](/assets/htmlcssAssets.assets/1573002830160.png)
 
 ```js
 var btn = document.querySelector('button');
@@ -545,7 +545,7 @@ offsetParent: 包含元素
 
 - 注意：返回的数值都不带单位
 
-  ![1573004022226](assets/1573004022226.png)
+  ![1573004022226](/assets/htmlcssAssets.assets/1573004022226.png)
 
 - ##### [示例](#)
 
@@ -602,11 +602,11 @@ offsetParent: 包含元素
 </body>
 ```
 
-![1573005451285](assets/1573005451285.png)
+![1573005451285](/assets/htmlcssAssets.assets/1573005451285.png)
 
 #### 案例4：鼠标在盒子中的位置
 
-![1573010305373](assets/1573010305373.png)
+![1573010305373](/assets/htmlcssAssets.assets/1573010305373.png)
 
 ```js
 var father = document.querySelector('.father');
@@ -626,9 +626,9 @@ father.addEventListener('click', function(e) {
 
   - > `我们在拖拽的时候元素重新定位自动也会带上translate的属性，所以不用担心`
 
-  ![1573096024951](assets/1573096024951.png)
+  ![1573096024951](/assets/htmlcssAssets.assets/1573096024951.png)
   
-  ![1573096212716](assets/1573096212716.png)
+  ![1573096212716](/assets/htmlcssAssets.assets/1573096212716.png)
 
 ```html
 <style>
@@ -793,7 +793,7 @@ father.addEventListener('click', function(e) {
 </body>
 ```
 
-![29](assets/29.gif)
+![29](/assets/htmlcssAssets.assets/29.gif)
 
 ```html
 <body>
@@ -819,7 +819,7 @@ father.addEventListener('click', function(e) {
 </body>
 ```
 
-![29](assets/30.gif)
+![29](/assets/htmlcssAssets.assets/30.gif)
 
 #### 案例5：京东放大镜
 
@@ -908,7 +908,7 @@ father.addEventListener('click', function(e) {
      });
      ```
   
-  ![31](assets/31.gif)
+  ![31](/assets/htmlcssAssets.assets/31.gif)
 
 ### 3，元素可视区client系列
 
@@ -918,7 +918,7 @@ father.addEventListener('click', function(e) {
 
 - **client** 能获得边框的大小
 
-  ![1573377571041](assets/1573377571041.png)
+  ![1573377571041](/assets/htmlcssAssets.assets/1573377571041.png)
 
 ### 4，flexible.js源码分析
 
@@ -951,7 +951,7 @@ father.addEventListener('click', function(e) {
 
    - 但是 `pageshow` 这个事件依旧会触发
 
-     ![1573381964090](assets/1573381964090.png)
+     ![1573381964090](/assets/htmlcssAssets.assets/1573381964090.png)
 
    ```js
    window.addEventListener('pageshow', function (e) {
@@ -1025,9 +1025,9 @@ father.addEventListener('click', function(e) {
 
 > `sroll` 的值是实际内容的高度
 
-![1573382713008](assets/1573382713008.png)
+![1573382713008](/assets/htmlcssAssets.assets/1573382713008.png)
 
-![1573382827368](assets/1573382827368.png)
+![1573382827368](/assets/htmlcssAssets.assets/1573382827368.png)
 
 ```html
 <style>
@@ -1063,7 +1063,7 @@ father.addEventListener('click', function(e) {
 </body>
 ```
 
-![1573384402672](assets/1573384402672.png)
+![1573384402672](/assets/htmlcssAssets.assets/1573384402672.png)
 
 #### 案例7：仿淘宝侧边栏
 
@@ -1075,7 +1075,7 @@ father.addEventListener('click', function(e) {
 
 4. 注意，页面被卷去的头部，需要通过 `window.pageYOffset` 来获得，被卷去的左值 `window.pageXOffset` 获得
 
-   ![1573398428514](assets/1573398428514.png)
+   ![1573398428514](/assets/htmlcssAssets.assets/1573398428514.png)
 
 ```html
     <style>
@@ -1165,7 +1165,7 @@ father.addEventListener('click', function(e) {
 </body>
 ```
 
-![1573398428514](assets/32.gif)
+![1573398428514](/assets/htmlcssAssets.assets/32.gif)
 
 #### 案例7(改)：添加回到顶部功能
 
@@ -1192,15 +1192,15 @@ gotop.addEventListener('click', function() {
 })
 ```
 
-![](assets/40.gif)
+![](/assets/htmlcssAssets.assets/40.gif)
 
 ### 6，三大系列总结
 
-![1573438719219](assets/1573438719219.png)
+![1573438719219](/assets/htmlcssAssets.assets/1573438719219.png)
 
 **offset** 系列和其他两者最大的区别就是 **offset** 获得的不包括边框，其他两者包含
 
-![1573438845487](assets/1573438845487.png)
+![1573438845487](/assets/htmlcssAssets.assets/1573438845487.png)
 
 - offset系列经常用于获得`元素的位置`
 - client 经常用于获取`元素大小` 
@@ -1228,7 +1228,7 @@ gotop.addEventListener('click', function() {
 </body>
 ```
 
-![1573440134335](assets/1573440134335.png)
+![1573440134335](/assets/htmlcssAssets.assets/1573440134335.png)
 
 ### 8，动画原理
 
@@ -1271,7 +1271,7 @@ gotop.addEventListener('click', function() {
    </body>
    ```
 
-   ![1573440134335](assets/33.gif)
+   ![1573440134335](/assets/htmlcssAssets.assets/33.gif)
 
 ### 9，动画函数的简单封装
 
@@ -1307,7 +1307,7 @@ gotop.addEventListener('click', function() {
 </body>
 ```
 
-![1573440134335](assets/34.gif)
+![1573440134335](/assets/htmlcssAssets.assets/34.gif)
 
 #### 案例8：点击按钮开始动画
 
@@ -1341,7 +1341,7 @@ button.addEventListener('click', function() {
 })
 ```
 
-![1573440134335](assets/35.gif)
+![1573440134335](/assets/htmlcssAssets.assets/35.gif)
 
 ### 10，缓动动画原理
 
@@ -1390,7 +1390,7 @@ button.addEventListener('click', function() {
    </body>
    ```
 
-   ![1573440134335](assets/36.gif)
+   ![1573440134335](/assets/htmlcssAssets.assets/36.gif)
 
 ### 11，给动画添加回调函数
 
@@ -1464,7 +1464,7 @@ button.addEventListener('click', function() {
 </body>
 ```
 
-![37](assets/37.gif)
+![37](/assets/htmlcssAssets.assets/37.gif)
 
 #### 案例10：筋斗云案例
 
@@ -1594,7 +1594,7 @@ button.addEventListener('click', function() {
 </script>
 ```
 
-![37](assets/41.gif)
+![37](/assets/htmlcssAssets.assets/41.gif)
 
 ## 网页轮播图
 
@@ -1878,7 +1878,7 @@ var timer = setInterval(function() {
 
 > 为了解决轮播图点击过快，图片飞的很快的问题
 
-![38](assets/38.gif)
+![38](/assets/htmlcssAssets.assets/38.gif)
 
 - ##### [解决方案](#)
 
@@ -1907,7 +1907,7 @@ var timer = setInterval(function() {
   })
   ```
 
-  ![](assets/39.gif)
+  ![](/assets/htmlcssAssets.assets/39.gif)
 
 ## 移动端特效
 
@@ -1917,9 +1917,9 @@ touch 对象代表了一个触摸点，触摸点可能是一根手指，也可�
 
 - 常见的触屏事件如下：
 
-  ![1573743753977](assets/1573743753977.png)
+  ![1573743753977](/assets/htmlcssAssets.assets/1573743753977.png)
 
-![](assets/42.gif)
+![](/assets/htmlcssAssets.assets/42.gif)
 
 ### 2，TouchEvent事件对象
 
@@ -1927,7 +1927,7 @@ TouchEvent 是一类描述手指在触摸平面（触摸屏，触摸板）的状
 
 touchstart，touchmove，touchend三个事件都有各自的事件对象
 
-![1573784450585](assets/1573784450585.png)
+![1573784450585](/assets/htmlcssAssets.assets/1573784450585.png)
 
 - **touchend** 是只有 **changeTouches** 事件的，因为手指放开的时候没有在触摸 target对象的手指
 
@@ -1992,7 +1992,7 @@ div {
   </body>
   ```
 
-  ![](assets/43.gif)
+  ![](/assets/htmlcssAssets.assets/43.gif)
 
 ### 3，手机端轮播图
 
@@ -2039,7 +2039,7 @@ div {
    }, 2000)
    ```
 
-   ![](assets/44.gif)
+   ![](/assets/htmlcssAssets.assets/44.gif)
 
    2. 小圆点变化效果
 
@@ -2210,7 +2210,7 @@ div {
            }
    ```
    
-   ![](assets/45.gif)
+   ![](/assets/htmlcssAssets.assets/45.gif)
    
    
    
@@ -2263,7 +2263,7 @@ goback.addEventListener('click', function () {
 })
 ```
 
-![](assets/46.gif)
+![](/assets/htmlcssAssets.assets/46.gif)
 
 ### 6，click延时解决方案
 
@@ -2277,7 +2277,7 @@ goback.addEventListener('click', function () {
 
 2. 封装 tap，解决 click 300 ms 延时
 
-   ![1574125018391](assets/1574125018391.png)
+   ![1574125018391](/assets/htmlcssAssets.assets/1574125018391.png)
 
 3. 使用 fastclick插件解决延时
 
@@ -2299,7 +2299,7 @@ goback.addEventListener('click', function () {
 
    创建一个js文件，用来存放 **fastclick.js** 的文件，把 **github** 上面的代码复制过来
 
-   ![1574127201107](assets/1574127201107.png)
+   ![1574127201107](/assets/htmlcssAssets.assets/1574127201107.png)
 
 ### 7，Swiper插件使用
 
@@ -2311,21 +2311,21 @@ goback.addEventListener('click', function () {
 
 1. 在 **demo** 中选中想要的样式，并查看源代码
 
-   ![1574143724904](assets/1574143724904.png)
+   ![1574143724904](/assets/htmlcssAssets.assets/1574143724904.png)
 
 2. 使用之前先导入这两个文件（css 和 js）
 
-   ![1574143794807](assets/1574143794807.png)
+   ![1574143794807](/assets/htmlcssAssets.assets/1574143794807.png)
 
 3. 在想要的样式中的源代码中进行复制
 
-   ![1574143933990](assets/1574143933990.png)
+   ![1574143933990](/assets/htmlcssAssets.assets/1574143933990.png)
 
 4. 自己再根据自己需要进行样式的调整
 
 5. 再官网上查看组件的使用
 
-   ![1574143989864](assets/1574143989864.png)
+   ![1574143989864](/assets/htmlcssAssets.assets/1574143989864.png)
 
 > 市场上其他的插件
 
@@ -2363,7 +2363,7 @@ goback.addEventListener('click', function () {
 </html>
 ```
 
-![1574145531862](assets/1574145531862.png)
+![1574145531862](/assets/htmlcssAssets.assets/1574145531862.png)
 
 # 本地存储
 
@@ -2386,7 +2386,7 @@ goback.addEventListener('click', function () {
 
 4. 在浏览器的这里查看
 
-   ![1574327928132](assets/1574327928132.png)
+   ![1574327928132](/assets/htmlcssAssets.assets/1574327928132.png)
 
 - ##### `存数据`
 
@@ -2466,12 +2466,12 @@ goback.addEventListener('click', function () {
 
 4. 在浏览器的这里查看
 
-   ![1574330021870](assets/1574330021870.png)
+   ![1574330021870](/assets/htmlcssAssets.assets/1574330021870.png)
 
 ### 案例12：记住用户名
 
 ```html
-![47](assets/47.gif)<input type="text">
+![47](/assets/htmlcssAssets.assets/47.gif)<input type="text">
 <p><input type="checkbox" name="" id="one" value=""><label for="one">记住用户名</label></p>
 
 <script>
@@ -2493,4 +2493,4 @@ goback.addEventListener('click', function () {
 </script>
 ```
 
-![47](assets/47.gif)
+![47](/assets/htmlcssAssets.assets/47.gif)

@@ -9,11 +9,11 @@ title: DOM对象
 
 ### 1，什么是DOM
 
-![1569740427078](assets/1569740427078.png)
+![1569740427078](/assets/htmlcssAssets.assets/1569740427078.png)
 
 ### 2，DOM树
 
-![1569740523926](assets/1569740523926.png)
+![1569740523926](/assets/htmlcssAssets.assets/1569740523926.png)
 
 ### 3，获取ID名获取元素
 
@@ -29,7 +29,7 @@ console.log(typeof timer);
 console.dir(timer);
 ```
 
-![1569741146619](assets/1569741146619.png)
+![1569741146619](/assets/htmlcssAssets.assets/1569741146619.png)
 
 ### 4，根据标签名获取
 
@@ -50,7 +50,7 @@ console.dir(timer);
   console.dir(li_123.getElementsByTagName('div'))
   ```
 
-  ![1569803881480](assets/1569803881480.png)
+  ![1569803881480](/assets/htmlcssAssets.assets/1569803881480.png)
 
 ### 5，H5新增的获取元素
 
@@ -119,7 +119,7 @@ console.dir(timer);
 
   3. 添加事件处理程序
 
-     ![1569805994679](assets/1569805994679.png)
+     ![1569805994679](/assets/htmlcssAssets.assets/1569805994679.png)
 
 ### 2，修改标签的内容
 
@@ -165,7 +165,7 @@ console.dir(timer);
   console.log(div.innerHTML);
   ```
 
-  ![1569807696604](assets/1569807696604.png)
+  ![1569807696604](/assets/htmlcssAssets.assets/1569807696604.png)
 
 ### 3，修改标签的属性
 
@@ -211,7 +211,7 @@ btn.onclick = function () {
 }    
 ```
 
-![3](assets/3.gif)
+![3](/assets/htmlcssAssets.assets/3.gif)
 
 - [案例](http://127.0.0.1:5500/demo.html)：按一个按钮能够显示密码的明文
 
@@ -235,14 +235,14 @@ btn.onclick = function () {
 }
 ```
 
-![2](assets/2.gif)
+![2](/assets/htmlcssAssets.assets/2.gif)
 
 ### 5，修改标签css样式属性
 
 > 修改标签的 **width，height，backgroundback** 属性
 
 ```javascript
-![2](assets/2.gif)// 1. 获取元素
+![2](/assets/htmlcssAssets.assets/2.gif)// 1. 获取元素
 var div = document.querySelector('div');
 // 2. 注册事件
 div.onclick = function () {
@@ -253,7 +253,7 @@ div.onclick = function () {
 }
 ```
 
-![1](assets/1.gif)
+![1](/assets/htmlcssAssets.assets/1.gif)
 
 **注意**：
 
@@ -261,7 +261,7 @@ div.onclick = function () {
 
 2. JS 修改 [style](#) 样式操作，产生的是**行内样式**，[css](#) 权重比较高
 
-![1570195298533](assets/1570195298533.png)
+![1570195298533](/assets/htmlcssAssets.assets/1570195298533.png)
 
 #### -案例1：关闭二维码
 
@@ -293,7 +293,7 @@ li[i].style.backgroundPosition = '0 -' + index + 'px';
 }
 ```
 
-![1570420674435](assets/1570420674435.png)
+![1570420674435](/assets/htmlcssAssets.assets/1570420674435.png)
 
 #### -案例3：输入框提示
 
@@ -320,16 +320,16 @@ text.onblur = function () {
 }
 ```
 
-![4](assets/4.gif)
+![4](/assets/htmlcssAssets.assets/4.gif)
 
 ### 6，修改标签的class类名
 
 如果我们像修改一个标签的属性，但是标签的属性太多，我们可以直接修改标签的[classname](https://www.bilibili.com/video/av56979338/?p=23)属性
 
-![1570423240412](assets/1570423240412.png)
+![1570423240412](/assets/htmlcssAssets.assets/1570423240412.png)
 
 ```javascript
-![5](assets/5.gif)div {
+![5](/assets/htmlcssAssets.assets/5.gif)div {
     width: 100px;
     height: 100px;
     background-color: black;
@@ -354,7 +354,7 @@ div.onclick = function () {
 }
 ```
 
-![5](assets/5.gif)
+![5](/assets/htmlcssAssets.assets/5.gif)
 
 - [x] 案例：验证密码框
 
@@ -398,11 +398,11 @@ div.onclick = function () {
   }
   ```
 
-  ![6](assets/6.gif)
+  ![6](/assets/htmlcssAssets.assets/6.gif)
 
 ### 7，操作元素小结
 
-![1570425090718](assets/1570425090718.png)
+![1570425090718](/assets/htmlcssAssets.assets/1570425090718.png)
 
 ### 8，排他思想
 
@@ -438,7 +438,7 @@ div.onclick = function () {
 
   - 排他思想：在给自己添加属性的时候，先吧其他所有的按钮删除属性
 
-![7](assets/7.gif)
+![7](/assets/htmlcssAssets.assets/7.gif)
 
 
 
@@ -502,7 +502,7 @@ div.onclick = function () {
 </body>
 ```
 
-![8](assets/8.gif)
+![8](/assets/htmlcssAssets.assets/8.gif)
 
 
 
@@ -579,7 +579,7 @@ div.onclick = function () {
 </body>
 ```
 
-![9](assets/9.gif)
+![9](/assets/htmlcssAssets.assets/9.gif)
 
 #### -案例6：标签全选取消
 
@@ -666,7 +666,7 @@ div.onclick = function () {
 </body>	
 ```
 
-![10](assets/10.gif)
+![10](/assets/htmlcssAssets.assets/10.gif)
 
 ### 9，自定义属性
 
@@ -803,7 +803,7 @@ table.setAttribute('index', 1)
 </body>	
 ```
 
-![11](assets/11.gif)
+![11](/assets/htmlcssAssets.assets/11.gif)
 
 
 
@@ -818,27 +818,27 @@ table.setAttribute('index', 1)
 
 2. 利用**节点层次级关系**获取元素
 
-   ![1570534060289](assets/1570534060289.png)
+   ![1570534060289](/assets/htmlcssAssets.assets/1570534060289.png)
 
    - 在开发中一般只获取元素节点
 
 3. 节点层级
 
-   ![1570534330190](assets/1570534330190.png)
+   ![1570534330190](/assets/htmlcssAssets.assets/1570534330190.png)
 
 1. ##### 父级节点（亲爸爸）
 
-   ![1570534385632](assets/1570534385632.png)
+   ![1570534385632](/assets/htmlcssAssets.assets/1570534385632.png)
 
 2. ##### 子节点
 
    - 不推荐
 
-     ![1570534925911](assets/1570534925911.png)
+     ![1570534925911](/assets/htmlcssAssets.assets/1570534925911.png)
 
    - 实际开发常用
 
-     ![1570535058028](assets/1570535058028.png)
+     ![1570535058028](/assets/htmlcssAssets.assets/1570535058028.png)
 
 6. ##### 获取指定节点
 
@@ -848,7 +848,7 @@ table.setAttribute('index', 1)
    >
    > `node.childre[0]` 获取任意一个节点
 
-   ![1570535705338](assets/1570535705338.png)
+   ![1570535705338](/assets/htmlcssAssets.assets/1570535705338.png)
 
 7. ##### 获取兄弟节点
 
@@ -856,7 +856,7 @@ table.setAttribute('index', 1)
    >
    > `next/previousElementSibling` 获取上一个节点元素
 
-   ##### ![1570537762832](assets/1570537762832.png)![1570537685271](assets/1570537685271.png)
+   ##### ![1570537762832](/assets/htmlcssAssets.assets/1570537762832.png)![1570537685271](/assets/htmlcssAssets.assets/1570537685271.png)
 
 8. ##### 创建添加节点
 
@@ -864,7 +864,7 @@ table.setAttribute('index', 1)
    >
    > `appendChild()`和`insertBefore()` ：插入节点
 
-   ![1570539589146](assets/1570539589146.png)
+   ![1570539589146](/assets/htmlcssAssets.assets/1570539589146.png)
 
 9. ##### 删除节点
 
@@ -898,13 +898,13 @@ table.setAttribute('index', 1)
    </body>
    ```
 
-   ![14](assets/14.gif)
+   ![14](/assets/htmlcssAssets.assets/14.gif)
 
 10. ##### 复制节点
 
    > `node.cloneNode()` 参数为空时，浅拷贝，只复制标签，不复制内容，参数为true，深拷贝
 
-   ![1570584920631](assets/1570584920631.png)
+   ![1570584920631](/assets/htmlcssAssets.assets/1570584920631.png)
 
    ```javascript
    var li1 = document.querySelector('.boss');
@@ -994,7 +994,7 @@ table.setAttribute('index', 1)
 </body>	
 ```
 
-![12](assets/12.gif)
+![12](/assets/htmlcssAssets.assets/12.gif)
 
 #### -案例9：简单留言发布
 
@@ -1051,7 +1051,7 @@ table.setAttribute('index', 1)
 </body>	
 ```
 
-![13](assets/13.gif)
+![13](/assets/htmlcssAssets.assets/13.gif)
 
 #### -案例10：删除留言
 
@@ -1135,7 +1135,7 @@ table.setAttribute('index', 1)
 </body>	
 ```
 
-![15](assets/15.gif)
+![15](/assets/htmlcssAssets.assets/15.gif)
 
 #### -案例11：动态生成表格
 
@@ -1226,7 +1226,7 @@ table.setAttribute('index', 1)
 </body>	
 ```
 
-![16](assets/16.gif)
+![16](/assets/htmlcssAssets.assets/16.gif)
 
 ### 11，三种创建元素的方式
 
@@ -1250,7 +1250,7 @@ var a = document.createElement('a');
 create.appendChild(a) 
 ```
 
-![1570598306280](assets/1570598306280.png)
+![1570598306280](/assets/htmlcssAssets.assets/1570598306280.png)
 
 ```javascript
 // 创建大量的元素，使用 innerHTML + 数组拼接 的方式创建
@@ -1310,7 +1310,7 @@ console.log('一共执行' + (+new Date -  start_time) + '毫秒');
 
    - 查
 
-     ![1570429345052](assets/1570429345052.png)
+     ![1570429345052](/assets/htmlcssAssets.assets/1570429345052.png)
 
      ```javascript
      // H5 的新方法 querySelector/querySelectorAll
@@ -1321,15 +1321,15 @@ console.log('一共执行' + (+new Date -  start_time) + '毫秒');
 
    - 元素属性
 
-     ![1570429321878](assets/1570429321878.png)
+     ![1570429321878](/assets/htmlcssAssets.assets/1570429321878.png)
 
    - 自定义属性
 
-     ![1570599513790](assets/1570599513790.png)
+     ![1570599513790](/assets/htmlcssAssets.assets/1570599513790.png)
 
 3. 事件操作
 
-   ![1570429429195](assets/1570429429195.png)
+   ![1570429429195](/assets/htmlcssAssets.assets/1570429429195.png)
 
 ## 事件高级
 
@@ -1404,7 +1404,7 @@ btns[1].addEventListener('click', function () {
 
 比如我们给 div 注册一个点击事件：
 
-![1570604153294](assets/1570604153294.png)
+![1570604153294](/assets/htmlcssAssets.assets/1570604153294.png)
 
 **DOM事件流**分成了3个阶段：
 
@@ -1431,7 +1431,7 @@ btns[1].addEventListener('click', function () {
    }, true)
    ```
 
-   ![17](assets/17.gif)
+   ![17](/assets/htmlcssAssets.assets/17.gif)
 
 2. 当前目标阶段(执行我们点击的按钮的事件)
 
@@ -1441,7 +1441,7 @@ btns[1].addEventListener('click', function () {
 
    > `有些事件是没有冒泡`，比如：**onblur，onfocus，onmouseenter，onmouseleave**
 
-   ![1570604357068](assets/1570604357068.png)
+   ![1570604357068](/assets/htmlcssAssets.assets/1570604357068.png)
 
    ```javascript
    // 冒泡阶段，事件监听的第三个参数为false，代表冒泡会执行
@@ -1460,7 +1460,7 @@ btns[1].addEventListener('click', function () {
    })
    ```
 
-   ![18](assets/18.gif)
+   ![18](/assets/htmlcssAssets.assets/18.gif)
 
 ### 5，事件对象
 
@@ -1480,7 +1480,7 @@ button.addEventListener('click', function(e) {
 })
 ```
 
-![1570606776114](assets/1570606776114.png)
+![1570606776114](/assets/htmlcssAssets.assets/1570606776114.png)
 
 ### 6，e.target和this区别
 
@@ -1506,7 +1506,7 @@ button.addEventListener('click', function(e) {
 </body>
 ```
 
-![19](assets/19.gif)
+![19](/assets/htmlcssAssets.assets/19.gif)
 
 - 了解内容
 
@@ -1537,7 +1537,7 @@ button.addEventListener('click', function(e) {
    }
    ```
 
-   ![1570608821640](assets/1570608821640.png)
+   ![1570608821640](/assets/htmlcssAssets.assets/1570608821640.png)
 
 2. ###### 阻止默认行为（事件），让链接不跳转，或者让提交按钮不提交
 
@@ -1607,7 +1607,7 @@ document.body.addEventListener('click', function() {
 
 - 这样子能够大大提高程序的运行效率，只注册一个监听器，就能让所有的li有这个事件
 
-![20](assets/20.gif)
+![20](/assets/htmlcssAssets.assets/20.gif)
 
 
 
@@ -1651,7 +1651,7 @@ document.addEventListener('selectstart', function(e) {
 </body>
 ```
 
-![21](assets/21.gif)
+![21](/assets/htmlcssAssets.assets/21.gif)
 
 ### 11，鼠标在页面中的坐标
 
@@ -1669,7 +1669,7 @@ console.log(e.screenX);
 console.log(e.screenY);
 ```
 
-![1572876861544](assets/1572876861544.png)
+![1572876861544](/assets/htmlcssAssets.assets/1572876861544.png)
 
 ### 12，常用的键盘事件
 
@@ -1693,15 +1693,15 @@ document.addEventListener('keypress', function(e) {
 })
 ```
 
-![1572877538890](assets/1572877538890.png)
+![1572877538890](/assets/htmlcssAssets.assets/1572877538890.png)
 
-![1572877600167](assets/1572877600167.png)
+![1572877600167](/assets/htmlcssAssets.assets/1572877600167.png)
 
 ### 13，键盘事件对象
 
 > 识别键盘的键使用 `keyCode`，但是不要使用 key，兼容性很差
 
-![1572878133013](assets/1572878133013.png)
+![1572878133013](/assets/htmlcssAssets.assets/1572878133013.png)
 
 - [**keypress**](#) 和 [**keydown**](#) 的区别：前者能区分大小写
 - 实际开发中，通常使用 down 和 up ，他能识别所有的键（包括功能键）
@@ -1717,7 +1717,7 @@ document.addEventListener('keyup', function(e) {
 })
 ```
 
-![](assets/25.gif)
+![](/assets/htmlcssAssets.assets/25.gif)
 
 #### 案例14-模拟京东快递查询
 
@@ -1801,5 +1801,5 @@ document.addEventListener('keyup', function(e) {
 </script>
 ```
 
-![](assets/26.gif)
+![](/assets/htmlcssAssets.assets/26.gif)
 

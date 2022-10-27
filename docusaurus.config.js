@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          breadcrumbs: true
+          breadcrumbs: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,14 +50,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Andermi', 
+        title: 'Andermi',
         logo: {
           alt: 'My Site Logo',
           src: 'img/user.jpg',
         },
-        items: [{
+        items: [
+          {
             type: 'doc',
-            docId: 'crazyJs',
+            docId: 'suanfa/leetcode300',
             position: 'right',
             label: '正文',
           },
@@ -65,26 +66,26 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [{
+        links: [
+          {
             title: 'Docs',
-            items: [{
-              label: '正文',
-              to: 'docs/crazyJs',
-            }, ],
+            items: [
+              {
+                label: '正文',
+                to: 'docs/HTML+CSS/css',
+              },
+            ],
           },
           {
-            title: 'Community',
-            items: [{
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            title: 'Me',
+            items: [
+              {
+                label: 'CSND',
+                href: 'https://blog.csdn.net/weixin_44038881?spm=1000.2115.3001.5343',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/Adermi',
               },
             ],
           },
@@ -92,13 +93,29 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'React Docs Beta 官网',
+                href: 'https://beta.reactjs.org/',
+              },
+              {
+                label: 'NextJs 官网',
+                href: 'https://nextjs.org/',
+              },
+              {
+                label: 'Vite 中文官网',
+                href: 'https://vitejs.cn/',
+              },
+              {
+                label: 'Lodash 官网',
+                href: 'https://lodash.com/',
+              },
+              {
+                label: 'React Router 官网',
+                href: 'https://reactrouter.com/docs/en/v6',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Andermi  <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">浙ICP备2021034657号-1</a>`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -108,9 +125,8 @@ const config = {
         sidebar: {
           hideable: true,
           autoCollapseCategories: false,
-
-        }
-      }
+        },
+      },
     }),
 };
 

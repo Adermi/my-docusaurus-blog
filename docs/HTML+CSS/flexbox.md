@@ -13,6 +13,7 @@ title: Flex布局
 
 - **flex布局**：
 
+  [](/assets/flextbox+grid.assets/image-20220604151151481.png)
   `flext items` 按照 `flex container` 的主轴排列元素，横竖都可以作为主轴，和主轴垂直的轴称为交叉轴，主轴由 `flex container` 的 `flex-direction` 决定
 
 - **主轴**：元素排列的轴
@@ -43,9 +44,10 @@ title: Flex布局
 }
 ```
 
-![image-20220514233122278](flextbox+grid.assets/image-20220514233122278.png)
+![image-20220514233122278](/assets/flextbox+grid.assets/image-20220514233122278.png)
 
-<img src={require('./flextbox+grid.assets/image-20220514233038330.png').default} alt="Example banner" />
+![image-20220514233122278](/assets/flextbox+grid.assets/image-20220514233038330.png)
+
 
 ### flex-wrap
 
@@ -59,7 +61,7 @@ title: Flex布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/1.gif').default} alt="Example banner" />
+![image-20220514233122278](/assets/flextbox+grid.assets/1.gif)
 
 ### flex-flow（简写）
 
@@ -81,7 +83,7 @@ title: Flex布局
 }
 ```
 
-![image-20220514235728765](flextbox+grid.assets/image-20220514235728765.png)
+![image-20220514235728765](/assets/flextbox+grid.assets/image-20220514235728765.png)
 
 - flex-start：如图所示。
 - flex-end：如图所示。
@@ -106,7 +108,7 @@ title: Flex布局
 - `center`：交叉轴中间处
 - `baseline`：子项按照基线对齐
 
-![image-20220515105326824](flextbox+grid.assets/image-20220515105326824.png)
+![image-20220515105326824](/assets/flextbox+grid.assets/image-20220515105326824.png)
 
 ###  align-content
 
@@ -120,7 +122,7 @@ title: Flex布局
 }
 ```
 
-<img src={require('./flextbox+grid.assets/image-20220515110750517.png').default} alt="Example banner" />
+![image-20220515124044258](/assets/flextbox+grid.assets/image-20220515110750517.png)
 
 
 
@@ -141,7 +143,8 @@ title: Flex布局
 - row-gap：行与行之间的距离。
 - column-gap：列与列之间的距离。
 
-<img src={require('./flextbox+grid.assets/image-20220515123432032.png').default} alt="Example banner"/>
+![image-20220515124044258](/assets/flextbox+grid.assets/image-20220515123432032.png)
+
 
 ## 子项属性
 
@@ -157,7 +160,7 @@ title: Flex布局
 }
 ```
 
-![image-20220515124044258](flextbox+grid.assets/image-20220515124044258.png)
+![image-20220515124044258](/assets/flextbox+grid.assets/image-20220515124044258.png)
 
 ### flex-grow
 
@@ -169,7 +172,7 @@ title: Flex布局
 }
 ```
 
-![image-20220515125312443](flextbox+grid.assets/image-20220515125312443.png)
+![image-20220515125312443](/assets/flextbox+grid.assets/image-20220515125312443.png)
 
 - 如果所有的子项都设置`flex-grow`为1，则容器内可用空间将会被均匀分配。
 - 如果有一个子项被设置为`flex-grow:2`，那么这个子项被分配到的空间为其他子项的两倍。
@@ -186,11 +189,11 @@ title: Flex布局
 
 子项被收缩时，所收缩的比例（比如一行子项不换行，总宽度超过父元素的宽度，会强制收缩每个子项的宽度）
 
-![image-20220515130500401](flextbox+grid.assets/image-20220515130500401.png)
+![image-20220515130500401](/assets/flextbox+grid.assets/image-20220515130500401.png)
 
 上面每个子项的`width`固定为`80px`，但是父盒子宽度不够且不换行，导致子项被强制收缩，每个子项都默认收缩了相同的宽度，因为每个子项的 `flex-shrink` 都为1。
 
-![image-20220515131430278](flextbox+grid.assets/image-20220515131430278.png)
+![image-20220515131430278](/assets/flextbox+grid.assets/image-20220515131430278.png)
 
 第1个和第5个子项都给了较大的收缩值，可以看到1和5比其他的子项都收缩了较大的比例。
 
@@ -204,7 +207,7 @@ title: Flex布局
 }
 ```
 
-![image-20220515135731007](flextbox+grid.assets/image-20220515135731007.png)
+![image-20220515135731007](/assets/flextbox+grid.assets/image-20220515135731007.png)
 
 ### flex（简写）
 

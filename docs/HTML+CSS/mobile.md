@@ -13,7 +13,7 @@ title: 移动端开发
 
 - 直观对比图
 
-  ![image-20210508215009986](assets/image-20210508200324036.png)
+  ![image-20210508215009986](/assets/htmlcssAssets.assets/image-20210508200324036.png)
 
 ### 2.屏幕分辨率
 
@@ -21,7 +21,7 @@ title: 移动端开发
 
 表示形式为 1920 * 1080（超清屏幕）2048*1536（2k 屏）等等
 
-![image-20210508215009986](assets/image-20210508200832996.png)
+![image-20210508215009986](/assets/htmlcssAssets.assets/image-20210508200832996.png)
 
 ### 3.设备像素|物理像素
 
@@ -38,7 +38,7 @@ title: 移动端开发
 但是为什么这两款手机屏幕大小是相同的？因为他们的设备独立像素是相同的，都是 320 \* 480，这使得相同的一颗像素点上，iphone4 注定比 iphone3 多 3 个真实的设备像素 x
 
   <img
-  src={require("./assets/image-20210508215009986.png").default}
+  src={require("/assets/htmlcssAssets.assets/image-20210508215009986.png").default}
   alt="Example banner"
   style={{ margin: "auto", display: 'block' }}
   />
@@ -65,7 +65,7 @@ title: 移动端开发
 
 > https://uiiiuiii.com/screen/
 
-![image-20210812192457269](assets/image-20210812192457269.png)
+![image-20210812192457269](/assets/htmlcssAssets.assets/image-20210812192457269.png)
 
 ### 8.像素比
 
@@ -108,19 +108,19 @@ window.devicePixelRatio;
 
 1. 电脑打开热点，使得手机和电脑处在同一个局域网内（电脑连手机或手机连电脑）
 
-   <img src="assets/image-20210916165759161.png" alt="image-20210916165759161" style={{
+   <img src="/assets/htmlcssAssets.assets/image-20210916165759161.png" alt="image-20210916165759161" style={{
      zoom:'50%'
    }} />
 
 2. 查看电脑的 ip 地址 `ipconfig` ，把浏览器中的 `127.0.0.1` 换成这个地址
 
-   <img src="assets/image-20210917205417882.png" alt="image-20210917205417882" style={{
+   <img src="/assets/htmlcssAssets.assets/image-20210917205417882.png" alt="image-20210917205417882" style={{
      zoom:'50%'
    }} />
 
 3. 手机扫描电脑生成的这个二维码
 
-   <img src="assets/image-20210917205503495.png" alt="image-20210917205503495" style={{
+   <img src="/assets/htmlcssAssets.assets/image-20210917205503495.png" alt="image-20210917205503495" style={{
      zoom:'50%'
    }} />
 
@@ -135,7 +135,7 @@ window.devicePixelRatio;
 3. 获取浏览器的总宽高：`window.outerWidth/outerWidth` （包含浏览器小屏时浏览器自带的阴影）
 4. 获取设备屏幕的宽高：`screen.width/screen.height`（电脑手机多大，这个固定多大）
 
-![image-20210916230728671](assets/image-20210916230728671.png)
+![image-20210916230728671](/assets/htmlcssAssets.assets/image-20210916230728671.png)
 
 - 视口的概念
 
@@ -160,7 +160,7 @@ window.devicePixelRatio;
 
        用户手机上所能看到的区域，用`window.innerHeight/innerWidth`能获得，若没有在页面设置理想视口，则得到的是浏览器厂商设定的初始值（980px），目的是为了适应PC端的页面
 
-       <img src={require('./assets/image-20210917154643866.png').default} alt="Example banner" />
+       <img src={require('/assets/htmlcssAssets.assets/image-20210917154643866.png').default} alt="Example banner" />
      
      - 理想视口
      
@@ -169,7 +169,7 @@ window.devicePixelRatio;
        1. 用户不用拖动滚动条就能看到完整的内容
        2. 后续开发可以针对不动尺寸的屏幕进行元素的缩放
      
-       <img src={require('./assets/image-20210917155556167.png').default} alt="Example banner" />
+       <img src={require('/assets/htmlcssAssets.assets/image-20210917155556167.png').default} alt="Example banner" />
 
      
        :star: 理想视口的设置方式
@@ -315,7 +315,7 @@ link.addEventListener("touchstart", function (e) {
 
 确认鼠标距离浏览器最左侧和最顶侧的，再确认鼠标距离盒子最左侧和最顶侧的距离，前者减去后者的值，就是盒子的左定位和右定位的值，这样就可以实现拖拽
 
-![image-20210919181905169](assets/image-20210919181905169.png)
+![image-20210919181905169](/assets/htmlcssAssets.assets/image-20210919181905169.png)
 
 1. 获取鼠标在盒子内的 left 和 top 值
    - 首先获取盒子距离浏览器左侧和顶层的距离`（DOM.offsetLeft/DOM.offsetTop）`
@@ -351,7 +351,7 @@ link.addEventListener("touchstart", function (e) {
 
 #### 全屏拖拽
 
-<img src="assets/移动 3.gif" style={{
+<img src="/assets/htmlcssAssets.assets/move 3.gif" style={{
      zoom:'50%'
    }} />
 
@@ -556,7 +556,7 @@ link.addEventListener("touchstart", function (e) {
 <meta name="viewport" content="width=375, user-scalable=no">
 ```
 
-![image-20210921224705432](assets/image-20210921224705432.png)
+![image-20210921224705432](/assets/htmlcssAssets.assets/image-20210921224705432.png)
 
 ### 2.rem 适配
 
@@ -590,7 +590,7 @@ link.addEventListener("touchstart", function (e) {
    </html>
    ```
 
-   ![image-20210922094619889](assets/image-20210922094619889.png)
+   ![image-20210922094619889](/assets/htmlcssAssets.assets/image-20210922094619889.png)
 
 rem 的两种适配方案:
 
@@ -608,7 +608,7 @@ rem 的两种适配方案:
 
   5. 这个方案方便，好计算。下面方案二使用 rem 和 less 结合也是很好的选择
 
-     <img src="assets/image-20210922143638962.png" alt="image-20210922143638962" style={{
+     <img src="/assets/htmlcssAssets.assets/image-20210922143638962.png" alt="image-20210922143638962" style={{
        zoom:'50%'
      }} />
 
@@ -668,7 +668,7 @@ rem 的两种适配方案:
 
   3. 这样做的好处就是，可以和 less 相结合，在`css`中直接写`px`，特别的方便
 
-     <img src="assets/image-20210922151856095.png" alt="image-20210922151856095" style={{
+     <img src="/assets/htmlcssAssets.assets/image-20210922151856095.png" alt="image-20210922151856095" style={{
        zoom:'50%'
      }} />
 
@@ -723,13 +723,13 @@ rem 的两种适配方案:
 
 在移动端下，一倍屏 1 个 px 是用 1 个 px 渲染的，到了两倍屏幕下，二倍屏下 1 个 px 是用 4 个 px 渲染的，到三倍屏下则是用 9 个 px 渲染的，我们肉眼看去就会显得比较粗
 
-![image-20210923143923871](assets/image-20210923143923871.png)
+![image-20210923143923871](/assets/htmlcssAssets.assets/image-20210923143923871.png)
 
 解决方案：
 
 ### 5.色块布局
 
-![image-20210925153437269](assets/image-20210925153437269.png)
+![image-20210925153437269](/assets/htmlcssAssets.assets/image-20210925153437269.png)
 
 ```html
 <!DOCTYPE html>
@@ -808,7 +808,7 @@ rem 的两种适配方案:
 3. 滚动条的高度就是： 500px / 1500px \* 500px
 4. 滚动条每次移动的距离就是：子盒子卷出去的距离 / 1500px \* 500px
 
-<img src="assets/image-20211008094352251.png" alt="image-20211008094352251"style={{
+<img src="/assets/htmlcssAssets.assets/image-20211008094352251.png" alt="image-20211008094352251"style={{
      zoom:'50%'
    }} />
 
@@ -1042,7 +1042,7 @@ class TouchScroll {
 
 #### 效果一
 
-![](assets/移动1.gif)
+![](/assets/htmlcssAssets.assets/move.gif)
 
 ```html
 <!DOCTYPE html>
@@ -1156,7 +1156,7 @@ class TouchScroll {
 
 #### 效果二
 
-![](assets/移动2.gif)
+![](/assets/htmlcssAssets.assets/move2.gif)
 
 ```html
 <!DOCTYPE html>
@@ -1221,7 +1221,7 @@ class TouchScroll {
 
 :key: 难点：怎么判断图片是否进入可视区域？
 
-![image-20211012110235925](assets/image-20211012110235925.png)
+![image-20211012110235925](/assets/htmlcssAssets.assets/image-20211012110235925.png)
 
 ```js
 // 图片懒加载：原理就是遍历每一张图片，判断其是否进入可视区域，来判断这张图片是否渲染
@@ -1247,7 +1247,7 @@ function lazyLoad() {
 
 ### 4.音阶效果
 
-![](assets/移动4.gif)
+![](/assets/htmlcssAssets.assets/move4.gif)
 
 ```html
 <!DOCTYPE html>
@@ -1364,7 +1364,7 @@ function lazyLoad() {
 
 > 主要用到了 keyframes，和延迟动画效果
 
-<img src="assets/移动 6.gif" style={{
+<img src="/assets/htmlcssAssets.assets/htmlcssAssets.assets/move6.gif" style={{
      zoom:'50%'
    }} />
 
