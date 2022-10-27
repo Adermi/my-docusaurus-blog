@@ -86,6 +86,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/Adermi',
               },
+              {
+                label: '掘金',
+                href: 'https://juejin.cn/user/2283015947683080',
+              },
+              {
+                label: '100daycss',
+                href: 'https://100daycss.xyb.cool',
+              },
             ],
           },
           {
