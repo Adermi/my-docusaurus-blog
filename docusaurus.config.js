@@ -49,7 +49,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Andermi',
+        title: '首页',
         logo: {
           alt: 'My Site Logo',
           src: 'img/user.jpg',
