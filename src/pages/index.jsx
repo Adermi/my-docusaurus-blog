@@ -67,7 +67,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`欢迎来到我的网站 | 邢益斌的网站`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
